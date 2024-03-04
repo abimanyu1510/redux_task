@@ -1,5 +1,6 @@
 import React, { useState} from 'react'
 
+
 export const UserContext = React.createContext()
 
 function UserContextComponent({children}) {
@@ -33,7 +34,7 @@ function UserContextComponent({children}) {
             "stock": 34,
             "brand": "Apple",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+            "thumbnail": "https://media.istockphoto.com/id/1219045199/photo/iphone-xs-max-front-view-and-iphone-11-pro-back-view-on-black.jpg?s=612x612&w=0&k=20&c=qBi1S7LY5edEtRn9YJnhVYrTZaSAu6gXMNqlLMvJsLc=",
             "images": [
                 "https://i.dummyjson.com/data/products/2/1.jpg",
                 "https://i.dummyjson.com/data/products/2/2.jpg",
@@ -66,7 +67,7 @@ function UserContextComponent({children}) {
             "stock": 123,
             "brand": "OPPO",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+            "thumbnail": "https://media.istockphoto.com/id/1339751747/photo/honor-magic-3-pro.jpg?s=612x612&w=0&k=20&c=jdG6PhhZiaKtnsYKjJKze9jfFIeXkp4OLlPsTqciaRE=",
             "images": [
                 "https://i.dummyjson.com/data/products/4/1.jpg",
                 "https://i.dummyjson.com/data/products/4/2.jpg",
@@ -85,7 +86,7 @@ function UserContextComponent({children}) {
             "stock": 32,
             "brand": "Huawei",
             "category": "smartphones",
-            "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+            "thumbnail": "https://media.istockphoto.com/id/1139635279/photo/new-huawei-p30-pro-smartphone.jpg?s=612x612&w=0&k=20&c=NlEwGpblADgiuhc8oy-7Ubg4VIQop4eF7Sfx6QHfUv4=",
             "images": [
                 "https://i.dummyjson.com/data/products/5/1.jpg",
                 "https://i.dummyjson.com/data/products/5/2.jpg",

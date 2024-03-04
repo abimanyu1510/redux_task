@@ -29,7 +29,7 @@ const Addtocard=()=>{
 
   return (<Card className='col-lg-4 mb-4'id='card'>
       
-        <Card.Img variant="top"className="rounded mx-auto d-block"  id="image" src={e.thumbnail} alt={e.images}/>
+        <Card.Img variant="top"className="rounded mx-auto d-block"  id="image" src={e.thumbnail} alt=""/>
         <Card.Body>
           <Card.Title className="card-text text-primary" style={{fontWeight:"bolder"}}>{e.title}</Card.Title>
           <Card.Text >{e.description} </Card.Text>
